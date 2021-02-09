@@ -1,0 +1,26 @@
+.layout {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+}
+
+.header {
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 48px;
+    padding: 20px;
+    border-bottom: 1px solid #c8c8c8;
+}
+.content {
+    grid-area: main;
+    padding: 15px 5px 10px 5px;
+}

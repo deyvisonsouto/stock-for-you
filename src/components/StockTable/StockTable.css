@@ -1,0 +1,63 @@
+.stock-table {
+    border-collapse: collapse;
+    margin: 25px auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.stock-table thead tr {
+    background-color: #c3c3c3;
+    color: #ffffff;
+    text-align: left;
+}
+.stock-table th,
+.stock-table td {
+    padding: 12px 15px;
+}
+
+.stock-table tbody tr {
+    border-bottom: thin solid #dddddd;
+}
+
+.stock-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.stock-table tbody tr:last-of-type {
+    border-bottom: 2px solid #c3c3c3;
+}
+
+.stock-table tbody tr.active-row {
+    font-weight: bold;
+    color: #c3c3c3;
+}
+
+.badge {
+    display: inline-block;
+    border-radius: 30%;
+    color: #f8f8f8;
+    font-weight: bold;
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+}
+.hold {
+    background-color: #d8d52f;
+}
+
+.buy {
+    background-color: #3bb10d;
+}
+
+.sell {
+    background-color: #d83c0d;
+}
+
+.align-right{
+    text-align: right;
+}
+
+.align-center{
+    text-align: center;
+}

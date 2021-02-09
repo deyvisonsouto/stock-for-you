@@ -1,0 +1,22 @@
+.input input {
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.input input:focus {
+    outline: none;
+    background-color: #f8f8f8;
+}
+.input label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.input input.required{
+    background-color: rgba(230, 76, 76, 0.479);
+}
