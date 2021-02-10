@@ -8,9 +8,9 @@ import thunk from 'redux-thunk';
 
 import './index.css';
 import App from './App';
-import stockPriceReducer from './store/reducers/stockPriceReducer';
-import stockMentionsReducer from './store/reducers/stockMentionsReducer';
-import stockRecommendationsReducer from './store/reducers/stockRecomendationReducer';
+import stockPriceReducer from './store/reducers/stockPrice.reducer';
+import stockMentionsReducer from './store/reducers/stockMentions.reducer';
+import stockRecommendationsReducer from './store/reducers/stockRecomendation.reducer';
 import reportWebVitals from './reportWebVitals';
 
 

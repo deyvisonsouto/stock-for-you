@@ -1,21 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Layout.css';
 
 
-class Layout extends Component {
-    render() {
-        return (
-            <div className="layout">
-                <header className="header">
-                    Stocks for you
+function Layout(props) {
+  return (
+    <div className="layout">
+      <header className="header">
+        Stocks for you
                 </header>
-                <main className="content">
-                    {this.props.children}
-                </main>
-            </div>
+      <main className="content">
+        {props.children}
+      </main>
+    </div>
 
-        )
-    }
+  )
 }
 
 export default Layout;

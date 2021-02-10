@@ -1,9 +1,19 @@
+@media (max-width: 768px) {
+    .table-wrapper {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+}
+
 .stock-table {
     border-collapse: collapse;
     margin: 25px auto;
     font-size: 0.9em;
     font-family: sans-serif;
     min-width: 400px;
+    width: 100%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 .stock-table thead tr {
@@ -54,10 +64,10 @@
     background-color: #d83c0d;
 }
 
-.align-right{
+.align-right {
     text-align: right;
 }
 
-.align-center{
+.align-center {
     text-align: center;
 }
